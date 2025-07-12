@@ -1,2 +1,2 @@
 # GraficasPorCompu
-Actividades hechas en el curso
+Hello World en Rust
