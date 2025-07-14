@@ -1,9 +1,8 @@
-mod framebuffer;
-mod bhm_line;
+// src/bhm_line.rs
 
 use crate::framebuffer::Framebuffer;
-use crate
 
+#[derive(Clone, Copy)]
 pub struct LineaBonita {
     pub x: i32,
     pub y: i32,
