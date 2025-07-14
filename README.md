@@ -1,4 +1,3 @@
 # GraficasPorCompu
-1. Punto
-2. Linea
-3. Figura
+1. Punto (raylib_imagetut/)
+2. Linea, Figura y figura rellena (raylib_prettyline/)
