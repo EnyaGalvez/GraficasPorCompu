@@ -1,7 +1,0 @@
-C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/lib/raylib.lib
-C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/include/raylib.h
-C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/include/rlgl.h
-C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/include/raymath.h
-C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/lib/pkgconfig/raylib.pc
-C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/lib/cmake/raylib/raylib-config-version.cmake
-C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/lib/cmake/raylib/raylib-config.cmake
