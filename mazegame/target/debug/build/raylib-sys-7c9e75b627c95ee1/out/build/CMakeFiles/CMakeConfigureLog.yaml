@@ -1,0 +1,504 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+      Compilaci├│n iniciada a las 24/07/2025 08:31:08 p. m..
+      
+      Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creando directorio "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.31
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/4.0.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+      Compilaci├│n iniciada a las 24/07/2025 08:31:10 p. m..
+      
+      Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+      PrepareForBuild:
+        Creando directorio "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creando directorio "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Se crear├í "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Se eliminar├í el archivo "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Aplicando tarea Touch a "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (destinos predeterminados).
+      
+      Compilaci├│n correcta.
+          0 Advertencia(s)
+          0 Errores
+      
+      Tiempo transcurrido 00:00:01.18
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/4.0.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-5uwh3d"
+      binary: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-5uwh3d"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-5uwh3d'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ca32d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 24/07/2025 08:31:13 p. m..
+        
+        Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uwh3d\\cmTC_ca32d.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_ca32d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uwh3d\\Debug\\".
+          Creando directorio "cmTC_ca32d.dir\\Debug\\cmTC_ca32d.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_ca32d.dir\\Debug\\cmTC_ca32d.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_ca32d.dir\\Debug\\cmTC_ca32d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca32d.dir\\Debug\\\\" /Fd"cmTC_ca32d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uwh3d\\Debug\\cmTC_ca32d.exe" /INCREMENTAL /ILK:"cmTC_ca32d.dir\\Debug\\cmTC_ca32d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-5uwh3d/Debug/cmTC_ca32d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-5uwh3d/Debug/cmTC_ca32d.lib" /MACHINE:X64  /machine:x64 cmTC_ca32d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ca32d.vcxproj -> C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uwh3d\\Debug\\cmTC_ca32d.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_ca32d.dir\\Debug\\cmTC_ca32d.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_ca32d.dir\\Debug\\cmTC_ca32d.tlog\\cmTC_ca32d.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5uwh3d\\cmTC_ca32d.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.03
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-fbo1mr"
+      binary: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-fbo1mr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_CXX_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-fbo1mr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4e48f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 24/07/2025 08:31:16 p. m..
+        
+        Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fbo1mr\\cmTC_4e48f.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_4e48f.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fbo1mr\\Debug\\".
+          Creando directorio "cmTC_4e48f.dir\\Debug\\cmTC_4e48f.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_4e48f.dir\\Debug\\cmTC_4e48f.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_4e48f.dir\\Debug\\cmTC_4e48f.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4e48f.dir\\Debug\\\\" /Fd"cmTC_4e48f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fbo1mr\\Debug\\cmTC_4e48f.exe" /INCREMENTAL /ILK:"cmTC_4e48f.dir\\Debug\\cmTC_4e48f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-fbo1mr/Debug/cmTC_4e48f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-fbo1mr/Debug/cmTC_4e48f.lib" /MACHINE:X64  /machine:x64 cmTC_4e48f.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_4e48f.vcxproj -> C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fbo1mr\\Debug\\cmTC_4e48f.exe
+        FinalizeBuildStatus:
+          Se eliminar├í el archivo "cmTC_4e48f.dir\\Debug\\cmTC_4e48f.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_4e48f.dir\\Debug\\cmTC_4e48f.tlog\\cmTC_4e48f.lastbuildstate".
+        Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-fbo1mr\\cmTC_4e48f.vcxproj" (destinos predeterminados).
+        
+        Compilaci├│n correcta.
+            0 Advertencia(s)
+            0 Errores
+        
+        Tiempo transcurrido 00:00:01.16
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:227 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeDetermineCompilerABI.cmake:270 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35211.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCCompilerFlag.cmake:56 (cmake_check_compiler_flag)"
+      - "cmake/AddIfFlagCompiles.cmake:3 (CHECK_C_COMPILER_FLAG)"
+      - "cmake/CompilerFlags.cmake:5 (add_if_flag_compiles)"
+      - "CMakeLists.txt:34 (include)"
+    checks:
+      - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
+    directories:
+      source: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-sdzzvq"
+      binary: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-sdzzvq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/galve/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake"
+    buildResult:
+      variable: "COMPILER_HAS_THOSE_TOGGLES"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-sdzzvq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d4686.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 24/07/2025 08:31:18 p. m..
+        
+        Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sdzzvq\\cmTC_d4686.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_d4686.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sdzzvq\\Debug\\".
+          Creando directorio "cmTC_d4686.dir\\Debug\\cmTC_d4686.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_d4686.dir\\Debug\\cmTC_d4686.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_d4686.dir\\Debug\\cmTC_d4686.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d4686.dir\\Debug\\\\" /Fd"cmTC_d4686.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro -Werror=pointer-arith "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sdzzvq\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sdzzvq\\cmTC_d4686.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sdzzvq\\cmTC_d4686.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sdzzvq\\cmTC_d4686.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sdzzvq\\cmTC_d4686.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.67
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:97 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-0mz8i7"
+      binary: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-0mz8i7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/galve/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/galve/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-0mz8i7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8bb25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 24/07/2025 08:31:20 p. m..
+        
+        Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\cmTC_8bb25.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_8bb25.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\Debug\\".
+          Creando directorio "cmTC_8bb25.dir\\Debug\\cmTC_8bb25.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_8bb25.dir\\Debug\\cmTC_8bb25.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_8bb25.dir\\Debug\\cmTC_8bb25.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8bb25.dir\\Debug\\\\" /Fd"cmTC_8bb25.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\src.c"
+          src.c
+        C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\cmTC_8bb25.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\cmTC_8bb25.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\cmTC_8bb25.vcxproj" (destino predeterminado) (1) ->
+        (ClCompile destino) -> 
+          C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0mz8i7\\cmTC_8bb25.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.75
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-s497k9"
+      binary: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-s497k9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/galve/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/galve/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-s497k9'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c5a05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 24/07/2025 08:31:22 p. m..
+        
+        Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\cmTC_c5a05.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_c5a05.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\Debug\\".
+          Creando directorio "cmTC_c5a05.dir\\Debug\\cmTC_c5a05.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_c5a05.dir\\Debug\\cmTC_c5a05.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_c5a05.dir\\Debug\\cmTC_c5a05.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c5a05.dir\\Debug\\\\" /Fd"cmTC_c5a05.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\Debug\\cmTC_c5a05.exe" /INCREMENTAL /ILK:"cmTC_c5a05.dir\\Debug\\cmTC_c5a05.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-s497k9/Debug/cmTC_c5a05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-s497k9/Debug/cmTC_c5a05.lib" /MACHINE:X64  /machine:x64 cmTC_c5a05.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\cmTC_c5a05.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\cmTC_c5a05.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\cmTC_c5a05.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-s497k9\\cmTC_c5a05.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.86
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/CheckLibraryExists.cmake:112 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:112 (check_library_exists)"
+      - "C:/Program Files/CMake/share/cmake-4.0/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "src/external/glfw/CMakeLists.txt:60 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-6rh5fy"
+      binary: "C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-6rh5fy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/galve/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/cmake;C:/Users/galve/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/raylib-sys-5.5.1/raylib/src/external/glfw/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-6rh5fy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0dd40.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Versi├│n de MSBuild 17.14.14+a129329f1 para .NET Framework
+        Compilaci├│n iniciada a las 24/07/2025 08:31:23 p. m..
+        
+        Proyecto "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\cmTC_0dd40.vcxproj" en nodo 1 (destinos predeterminados).
+        PrepareForBuild:
+          Creando directorio "cmTC_0dd40.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creando directorio "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\Debug\\".
+          Creando directorio "cmTC_0dd40.dir\\Debug\\cmTC_0dd40.tlog\\".
+        InitializeBuildStatus:
+          Se crear├í "cmTC_0dd40.dir\\Debug\\cmTC_0dd40.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_0dd40.dir\\Debug\\cmTC_0dd40.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /nologo /W1 /WX- /diagnostics:column /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0dd40.dir\\Debug\\\\" /Fd"cmTC_0dd40.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\Debug\\cmTC_0dd40.exe" /INCREMENTAL /ILK:"cmTC_0dd40.dir\\Debug\\cmTC_0dd40.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-6rh5fy/Debug/cmTC_0dd40.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/build/CMakeFiles/CMakeScratch/TryCompile-6rh5fy/Debug/cmTC_0dd40.lib" /MACHINE:X64  /machine:x64 cmTC_0dd40.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\cmTC_0dd40.vcxproj]
+        Compilaci├│n del proyecto terminada "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\cmTC_0dd40.vcxproj" (destinos predeterminados) -- ERROR.
+        
+        ERROR al compilar.
+        
+        "C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\cmTC_0dd40.vcxproj" (destino predeterminado) (1) ->
+        (Link destino) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\raylib-sys-7c9e75b627c95ee1\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6rh5fy\\cmTC_0dd40.vcxproj]
+        
+            0 Advertencia(s)
+            1 Errores
+        
+        Tiempo transcurrido 00:00:00.87
+        
+      exitCode: 1
+...

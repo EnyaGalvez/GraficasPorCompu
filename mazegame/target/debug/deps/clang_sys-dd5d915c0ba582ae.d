@@ -1,0 +1,14 @@
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\deps\clang_sys-dd5d915c0ba582ae.d: C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/macros.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/common.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/dynamic.rs
+
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\deps\libclang_sys-dd5d915c0ba582ae.rlib: C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/macros.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/common.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/dynamic.rs
+
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\deps\libclang_sys-dd5d915c0ba582ae.rmeta: C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/macros.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/common.rs C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/dynamic.rs
+
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\lib.rs:
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\support.rs:
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\clang-sys-1.8.1\src\link.rs:
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/macros.rs:
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/common.rs:
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\build\clang-sys-30280d535bf8be8c\out/dynamic.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\galve\\a2c2e\\graficasporcompu\\mazegame\\target\\debug\\build\\clang-sys-30280d535bf8be8c\\out

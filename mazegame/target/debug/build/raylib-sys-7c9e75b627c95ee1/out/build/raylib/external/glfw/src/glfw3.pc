@@ -1,0 +1,13 @@
+prefix=C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out
+exec_prefix=${prefix}
+includedir=C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/include
+libdir=C:/Users/galve/a2c2e/graficasporcompu/mazegame/target/debug/build/raylib-sys-7c9e75b627c95ee1/out/lib
+
+Name: GLFW
+Description: A multi-platform library for OpenGL, window and input
+Version: 3.4.0
+URL: https://www.glfw.org/
+Requires.private: 
+Libs: -L${libdir} -lglfw3
+Libs.private:  -lgdi32
+Cflags: -I${includedir}

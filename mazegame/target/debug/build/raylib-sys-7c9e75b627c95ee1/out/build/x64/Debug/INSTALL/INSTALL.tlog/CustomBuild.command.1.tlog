@@ -1,0 +1,10 @@
+^C:\USERS\GALVE\A2C2E\GRAFICASPORCOMPU\MAZEGAME\TARGET\DEBUG\BUILD\RAYLIB-SYS-7C9E75B627C95EE1\OUT\BUILD\CMAKEFILES\D3A3FA1F78B0A94E61D05E3CF471FC70\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

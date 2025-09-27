@@ -1,0 +1,11 @@
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\deps\libc-c0078a3367c561ff.d: C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs
+
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\deps\liblibc-c0078a3367c561ff.rlib: C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs
+
+C:\Users\galve\a2c2e\graficasporcompu\mazegame\target\debug\deps\liblibc-c0078a3367c561ff.rmeta: C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs
+
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\lib.rs:
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\macros.rs:
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\primitives.rs:
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\mod.rs:
+C:\Users\galve\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\libc-0.2.174\src\windows\msvc\mod.rs:
