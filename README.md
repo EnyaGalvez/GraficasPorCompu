@@ -1,3 +1,2 @@
 # GraficasPorCompu
-Actividades hechas en el curso
-* Cada actividad se encuentra en una rama distinta
+Actividad de clase: Programa_para_leer_OBJ
